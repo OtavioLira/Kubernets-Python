@@ -3,29 +3,31 @@
 ### Comandos utilizados
 
 Clonando o repositorio
-´
+
+```
 git clone https://github.com/otavioliraneves/Kubernetes-Python.git
-´
+``` 
 
 1. Implantando o Script no Cluster
-´
+``` 
 kubectl apply -f deployment.yaml
-´
+``` 
 
 2. Verifique o status da implantação usando o comando **kubectl**
-´
+3. 
+``` 
 microk8s kubectl get pods
-´
+``` 
 
 3. Coletar Logs do Pod
-´
+``` 
 microk8s kubectl logs <pod_name> -n default
-´
+``` 
 
 4. Obtendo informações de recursos do Cluster de kubernetes
-´
+``` 
 kubectl get all
-´
+``` 
 
 ###Logs do pod
 
